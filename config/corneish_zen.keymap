@@ -66,19 +66,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &kp HOME        &kp UP_ARROW  &kp END    &kp INS           &kp DELETE
-&trans     &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &kp F11  &kp F12  &trans  &trans  &trans     &trans  &kp PG_UP       &trans        &kp PG_DN  &trans            &trans
-                             &trans  &trans  &trans     &trans  &trans          &trans
+&kp GRAVE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans     &kp N7        &kp N8        &kp N9        &kp MINUS  &kp PLUS
+&trans     &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp ASTERISK
+&trans     &kp F11  &kp F12  &trans  &trans  &trans     &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0     &kp EQUAL
+                             &trans  &trans  &trans     &trans     &trans        &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans          &trans     &kp N7  &kp N8  &kp N9  &kp MINUS  &kp PLUS
-&trans  &trans          &trans           &trans           &trans           &trans          &trans     &kp N4  &kp N5  &kp N6  &kp SLASH  &kp ASTERISK
-&trans  &bt BT_CLR_ALL  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N0     &kp EQUAL
-                                         &trans           &trans           &trans          &trans     &trans  &trans
+&trans  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans          &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp INS           &kp DEL
+&trans  &trans          &trans           &trans           &trans           &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &bt BT_CLR_ALL  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &trans  &kp PG_UP       &trans          &kp PAGE_DOWN    &trans            &trans
+                                         &trans           &trans           &trans          &trans  &trans          &trans
             >;
         };
     };
